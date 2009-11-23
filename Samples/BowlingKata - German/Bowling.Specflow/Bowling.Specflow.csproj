@@ -60,21 +60,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ScoreCalculation.feature</DependentUpon>
     </Compile>
-    <Compile Include="ScoreCalculationAlternatives.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ScoreCalculationAlternatives.feature</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ScoreCalculation.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ScoreCalculation.feature.cs</LastGenOutput>
-    </None>
-    <None Include="ScoreCalculationAlternatives.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ScoreCalculationAlternatives.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
