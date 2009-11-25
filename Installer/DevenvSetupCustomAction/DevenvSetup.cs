@@ -27,7 +27,7 @@ namespace DevenvSetupCustomAction
             {
 
                 using (RegistryKey setupKey = Registry.LocalMachine.OpenSubKey(
-                    @"SOFTWARE\Microsoft\VisualStudio\9.0\Setup\VS"))
+                    @"SOFTWARE\Microsoft\VisualStudio\10.0\Setup\VS"))
                 {
                     if (setupKey != null)
                     {

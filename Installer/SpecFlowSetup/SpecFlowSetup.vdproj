@@ -2070,7 +2070,7 @@
                 {
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_D3CB3FD488E24EA28989947C5F21C83A"
                     {
-                    "Name" = "8:Microsoft Visual Studio 9.0"
+                    "Name" = "8:Microsoft Visual Studio 10.0"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
@@ -2185,10 +2185,10 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:SpecFlow"
-        "ProductCode" = "8:{735A442F-1666-43D6-A9C1-44F4605677E0}"
+        "ProductName" = "8:SpecFlow VS2010"
+        "ProductCode" = "8:{656B2774-7366-4D00-AED2-1745E8D7AA89}"
         "PackageCode" = "8:{6257E6BC-D807-4484-AB67-42930815077D}"
-        "UpgradeCode" = "8:{A72428B6-8ADB-4EDF-BC23-4BE4E19F01A0}"
+        "UpgradeCode" = "8:{D1BC377F-4A66-4D74-9E21-5A9AD3440CC1}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
@@ -2247,7 +2247,7 @@
                                         {
                                             "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_FCC39B3DE9814FA7B1A8EC55B09D2EEB"
                                             {
-                                            "Name" = "8:9.0"
+                                            "Name" = "8:10.0"
                                             "Condition" = "8:"
                                             "AlwaysCreate" = "11:FALSE"
                                             "DeleteAtUninstall" = "11:FALSE"
