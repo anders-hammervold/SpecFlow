@@ -1,4 +1,4 @@
-// $ANTLR 3.1.2 SpecFlowLangLexer_nl.g 2010-02-04 21:53:42
+// $ANTLR 3.1.2 SpecFlowLangLexer_no.g 2010-02-04 21:53:43
 
 // The variable 'variable' is assigned but its value is never used.
 #pragma warning disable 168, 219
@@ -16,7 +16,7 @@ using Stack 		= Antlr.Runtime.Collections.StackList;
 using IDictionary	= System.Collections.IDictionary;
 using Hashtable 	= System.Collections.Hashtable;
 
-public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
+public partial class SpecFlowLangLexer_no : SpecFlowLangLexer {
     public const int NEWLINECHR = 6;
     public const int T_BACKGROUND = 9;
     public const int T_THEN = 15;
@@ -43,14 +43,14 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     // delegates
     // delegators
 
-    public SpecFlowLangLexer_nl() 
+    public SpecFlowLangLexer_no() 
     {
 		InitializeCyclicDFAs();
     }
-    public SpecFlowLangLexer_nl(ICharStream input)
+    public SpecFlowLangLexer_no(ICharStream input)
 		: this(input, null) {
     }
-    public SpecFlowLangLexer_nl(ICharStream input, RecognizerSharedState state)
+    public SpecFlowLangLexer_no(ICharStream input, RecognizerSharedState state)
 		: base(input, state) {
 		InitializeCyclicDFAs(); 
 
@@ -58,7 +58,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     
     override public string GrammarFileName
     {
-    	get { return "SpecFlowLangLexer_nl.g";} 
+    	get { return "SpecFlowLangLexer_no.g";} 
     }
 
     override public IToken NextToken() 
@@ -119,8 +119,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     {
     		try
     		{
-            // SpecFlowLangLexer_nl.g:12:25: ( ( ' ' | '\\t' ) )
-            // SpecFlowLangLexer_nl.g:12:27: ( ' ' | '\\t' )
+            // SpecFlowLangLexer_no.g:12:25: ( ( ' ' | '\\t' ) )
+            // SpecFlowLangLexer_no.g:12:27: ( ' ' | '\\t' )
             {
             	if ( input.LA(1) == '\t' || input.LA(1) == ' ' ) 
             	{
@@ -149,8 +149,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     {
     		try
     		{
-            // SpecFlowLangLexer_nl.g:13:25: ( ( ' ' | '\\t' | '\\r' | '\\n' | '#' | '@' ) )
-            // SpecFlowLangLexer_nl.g:13:27: ( ' ' | '\\t' | '\\r' | '\\n' | '#' | '@' )
+            // SpecFlowLangLexer_no.g:13:25: ( ( ' ' | '\\t' | '\\r' | '\\n' | '#' | '@' ) )
+            // SpecFlowLangLexer_no.g:13:27: ( ' ' | '\\t' | '\\r' | '\\n' | '#' | '@' )
             {
             	if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n') || input.LA(1) == '\r' || input.LA(1) == ' ' || input.LA(1) == '#' || input.LA(1) == '@' ) 
             	{
@@ -179,8 +179,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     {
     		try
     		{
-            // SpecFlowLangLexer_nl.g:14:25: ( ( '\\r' | '\\n' ) )
-            // SpecFlowLangLexer_nl.g:14:27: ( '\\r' | '\\n' )
+            // SpecFlowLangLexer_no.g:14:25: ( ( '\\r' | '\\n' ) )
+            // SpecFlowLangLexer_no.g:14:27: ( '\\r' | '\\n' )
             {
             	if ( input.LA(1) == '\n' || input.LA(1) == '\r' ) 
             	{
@@ -209,7 +209,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     {
     		try
     		{
-            // SpecFlowLangLexer_nl.g:15:25: ( ( '\\u0000' .. '\\t' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\uFFFF' ) )
+            // SpecFlowLangLexer_no.g:15:25: ( ( '\\u0000' .. '\\t' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\uFFFF' ) )
             int alt1 = 3;
             int LA1_0 = input.LA(1);
 
@@ -236,10 +236,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             switch (alt1) 
             {
                 case 1 :
-                    // SpecFlowLangLexer_nl.g:15:27: ( '\\u0000' .. '\\t' )
+                    // SpecFlowLangLexer_no.g:15:27: ( '\\u0000' .. '\\t' )
                     {
-                    	// SpecFlowLangLexer_nl.g:15:27: ( '\\u0000' .. '\\t' )
-                    	// SpecFlowLangLexer_nl.g:15:28: '\\u0000' .. '\\t'
+                    	// SpecFlowLangLexer_no.g:15:27: ( '\\u0000' .. '\\t' )
+                    	// SpecFlowLangLexer_no.g:15:28: '\\u0000' .. '\\t'
                     	{
                     		MatchRange('\u0000','\t'); if (state.failed) return ;
 
@@ -249,10 +249,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                     }
                     break;
                 case 2 :
-                    // SpecFlowLangLexer_nl.g:15:44: ( '\\u000B' .. '\\f' )
+                    // SpecFlowLangLexer_no.g:15:44: ( '\\u000B' .. '\\f' )
                     {
-                    	// SpecFlowLangLexer_nl.g:15:44: ( '\\u000B' .. '\\f' )
-                    	// SpecFlowLangLexer_nl.g:15:45: '\\u000B' .. '\\f'
+                    	// SpecFlowLangLexer_no.g:15:44: ( '\\u000B' .. '\\f' )
+                    	// SpecFlowLangLexer_no.g:15:45: '\\u000B' .. '\\f'
                     	{
                     		MatchRange('\u000B','\f'); if (state.failed) return ;
 
@@ -262,10 +262,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                     }
                     break;
                 case 3 :
-                    // SpecFlowLangLexer_nl.g:15:61: ( '\\u000E' .. '\\uFFFF' )
+                    // SpecFlowLangLexer_no.g:15:61: ( '\\u000E' .. '\\uFFFF' )
                     {
-                    	// SpecFlowLangLexer_nl.g:15:61: ( '\\u000E' .. '\\uFFFF' )
-                    	// SpecFlowLangLexer_nl.g:15:62: '\\u000E' .. '\\uFFFF'
+                    	// SpecFlowLangLexer_no.g:15:61: ( '\\u000E' .. '\\uFFFF' )
+                    	// SpecFlowLangLexer_no.g:15:62: '\\u000E' .. '\\uFFFF'
                     	{
                     		MatchRange('\u000E','\uFFFF'); if (state.failed) return ;
 
@@ -290,10 +290,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_FEATURE;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:18:15: ( 'Functionaliteit:' )
-            // SpecFlowLangLexer_nl.g:18:17: 'Functionaliteit:'
+            // SpecFlowLangLexer_no.g:18:15: ( 'Egenskap:' )
+            // SpecFlowLangLexer_no.g:18:17: 'Egenskap:'
             {
-            	Match("Functionaliteit:"); if (state.failed) return ;
+            	Match("Egenskap:"); if (state.failed) return ;
 
 
             }
@@ -314,10 +314,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_BACKGROUND;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:19:18: ( 'Achtergrond:' )
-            // SpecFlowLangLexer_nl.g:19:20: 'Achtergrond:'
+            // SpecFlowLangLexer_no.g:19:18: ( 'Bakgrunn:' )
+            // SpecFlowLangLexer_no.g:19:20: 'Bakgrunn:'
             {
-            	Match("Achtergrond:"); if (state.failed) return ;
+            	Match("Bakgrunn:"); if (state.failed) return ;
 
 
             }
@@ -338,8 +338,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_SCENARIO;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:20:16: ( 'Scenario:' )
-            // SpecFlowLangLexer_nl.g:20:18: 'Scenario:'
+            // SpecFlowLangLexer_no.g:20:16: ( 'Scenario:' )
+            // SpecFlowLangLexer_no.g:20:18: 'Scenario:'
             {
             	Match("Scenario:"); if (state.failed) return ;
 
@@ -362,10 +362,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_SCENARIO_OUTLINE;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:21:24: ( 'Abstract Scenario:' )
-            // SpecFlowLangLexer_nl.g:21:26: 'Abstract Scenario:'
+            // SpecFlowLangLexer_no.g:21:24: ( 'Abstrakt Scenario:' )
+            // SpecFlowLangLexer_no.g:21:26: 'Abstrakt Scenario:'
             {
-            	Match("Abstract Scenario:"); if (state.failed) return ;
+            	Match("Abstrakt Scenario:"); if (state.failed) return ;
 
 
             }
@@ -386,10 +386,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_EXAMPLES;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:22:16: ( 'Voorbeelden:' )
-            // SpecFlowLangLexer_nl.g:22:18: 'Voorbeelden:'
+            // SpecFlowLangLexer_no.g:22:16: ( 'Eksempel:' )
+            // SpecFlowLangLexer_no.g:22:18: 'Eksempel:'
             {
-            	Match("Voorbeelden:"); if (state.failed) return ;
+            	Match("Eksempel:"); if (state.failed) return ;
 
 
             }
@@ -410,10 +410,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_GIVEN;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:23:13: ( 'Gegeven' )
-            // SpecFlowLangLexer_nl.g:23:15: 'Gegeven'
+            // SpecFlowLangLexer_no.g:23:13: ( 'Gitt' )
+            // SpecFlowLangLexer_no.g:23:15: 'Gitt'
             {
-            	Match("Gegeven"); if (state.failed) return ;
+            	Match("Gitt"); if (state.failed) return ;
 
 
             }
@@ -434,10 +434,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_WHEN;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:24:12: ( 'Als' )
-            // SpecFlowLangLexer_nl.g:24:14: 'Als'
+            // SpecFlowLangLexer_no.g:24:12: ( 'N\\u00e5r' )
+            // SpecFlowLangLexer_no.g:24:14: 'N\\u00e5r'
             {
-            	Match("Als"); if (state.failed) return ;
+            	Match("N\u00e5r"); if (state.failed) return ;
 
 
             }
@@ -458,10 +458,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_THEN;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:25:12: ( 'Dan' )
-            // SpecFlowLangLexer_nl.g:25:14: 'Dan'
+            // SpecFlowLangLexer_no.g:25:12: ( 'S\\u00e5' )
+            // SpecFlowLangLexer_no.g:25:14: 'S\\u00e5'
             {
-            	Match("Dan"); if (state.failed) return ;
+            	Match("S\u00e5"); if (state.failed) return ;
 
 
             }
@@ -482,10 +482,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_AND;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:26:11: ( 'En' )
-            // SpecFlowLangLexer_nl.g:26:13: 'En'
+            // SpecFlowLangLexer_no.g:26:11: ( 'Og' )
+            // SpecFlowLangLexer_no.g:26:13: 'Og'
             {
-            	Match("En"); if (state.failed) return ;
+            	Match("Og"); if (state.failed) return ;
 
 
             }
@@ -506,10 +506,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = T_BUT;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:27:11: ( 'Maar' )
-            // SpecFlowLangLexer_nl.g:27:13: 'Maar'
+            // SpecFlowLangLexer_no.g:27:11: ( 'Men' )
+            // SpecFlowLangLexer_no.g:27:13: 'Men'
             {
-            	Match("Maar"); if (state.failed) return ;
+            	Match("Men"); if (state.failed) return ;
 
 
             }
@@ -530,8 +530,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = MLTEXT;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:29:13: ( '\"\"\"' )
-            // SpecFlowLangLexer_nl.g:29:15: '\"\"\"'
+            // SpecFlowLangLexer_no.g:29:13: ( '\"\"\"' )
+            // SpecFlowLangLexer_no.g:29:15: '\"\"\"'
             {
             	Match("\"\"\""); if (state.failed) return ;
 
@@ -554,8 +554,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = CELLSEP;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:30:14: ( '|' )
-            // SpecFlowLangLexer_nl.g:30:16: '|'
+            // SpecFlowLangLexer_no.g:30:14: ( '|' )
+            // SpecFlowLangLexer_no.g:30:16: '|'
             {
             	Match('|'); if (state.failed) return ;
 
@@ -577,8 +577,8 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = AT;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:31:17: ( '@' )
-            // SpecFlowLangLexer_nl.g:31:19: '@'
+            // SpecFlowLangLexer_no.g:31:17: ( '@' )
+            // SpecFlowLangLexer_no.g:31:19: '@'
             {
             	Match('@'); if (state.failed) return ;
 
@@ -600,10 +600,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = COMMENT;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:32:17: ( ( WSCHAR )* '#' ( NONNLCHR )* )
-            // SpecFlowLangLexer_nl.g:32:19: ( WSCHAR )* '#' ( NONNLCHR )*
+            // SpecFlowLangLexer_no.g:32:17: ( ( WSCHAR )* '#' ( NONNLCHR )* )
+            // SpecFlowLangLexer_no.g:32:19: ( WSCHAR )* '#' ( NONNLCHR )*
             {
-            	// SpecFlowLangLexer_nl.g:32:19: ( WSCHAR )*
+            	// SpecFlowLangLexer_no.g:32:19: ( WSCHAR )*
             	do 
             	{
             	    int alt2 = 2;
@@ -618,7 +618,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             	    switch (alt2) 
             		{
             			case 1 :
-            			    // SpecFlowLangLexer_nl.g:32:19: WSCHAR
+            			    // SpecFlowLangLexer_no.g:32:19: WSCHAR
             			    {
             			    	mWSCHAR(); if (state.failed) return ;
 
@@ -634,7 +634,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             		;	// Stops C# compiler whining that label 'loop2' has no statements
 
             	Match('#'); if (state.failed) return ;
-            	// SpecFlowLangLexer_nl.g:32:31: ( NONNLCHR )*
+            	// SpecFlowLangLexer_no.g:32:31: ( NONNLCHR )*
             	do 
             	{
             	    int alt3 = 2;
@@ -649,7 +649,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             	    switch (alt3) 
             		{
             			case 1 :
-            			    // SpecFlowLangLexer_nl.g:32:31: NONNLCHR
+            			    // SpecFlowLangLexer_no.g:32:31: NONNLCHR
             			    {
             			    	mNONNLCHR(); if (state.failed) return ;
 
@@ -687,10 +687,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = WS;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:33:17: ( ( WSCHAR )+ )
-            // SpecFlowLangLexer_nl.g:33:19: ( WSCHAR )+
+            // SpecFlowLangLexer_no.g:33:17: ( ( WSCHAR )+ )
+            // SpecFlowLangLexer_no.g:33:19: ( WSCHAR )+
             {
-            	// SpecFlowLangLexer_nl.g:33:19: ( WSCHAR )+
+            	// SpecFlowLangLexer_no.g:33:19: ( WSCHAR )+
             	int cnt4 = 0;
             	do 
             	{
@@ -706,7 +706,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             	    switch (alt4) 
             		{
             			case 1 :
-            			    // SpecFlowLangLexer_nl.g:33:19: WSCHAR
+            			    // SpecFlowLangLexer_no.g:33:19: WSCHAR
             			    {
             			    	mWSCHAR(); if (state.failed) return ;
 
@@ -745,7 +745,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = NEWLINE;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:34:17: ( '\\r\\n' | '\\n' )
+            // SpecFlowLangLexer_no.g:34:17: ( '\\r\\n' | '\\n' )
             int alt5 = 2;
             int LA5_0 = input.LA(1);
 
@@ -768,7 +768,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             switch (alt5) 
             {
                 case 1 :
-                    // SpecFlowLangLexer_nl.g:34:19: '\\r\\n'
+                    // SpecFlowLangLexer_no.g:34:19: '\\r\\n'
                     {
                     	Match("\r\n"); if (state.failed) return ;
 
@@ -776,7 +776,7 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                     }
                     break;
                 case 2 :
-                    // SpecFlowLangLexer_nl.g:34:28: '\\n'
+                    // SpecFlowLangLexer_no.g:34:28: '\\n'
                     {
                     	Match('\n'); if (state.failed) return ;
 
@@ -800,10 +800,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     		{
             int _type = WORDCHAR;
     	int _channel = DEFAULT_TOKEN_CHANNEL;
-            // SpecFlowLangLexer_nl.g:35:17: ( ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+ )
-            // SpecFlowLangLexer_nl.g:35:19: ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+
+            // SpecFlowLangLexer_no.g:35:17: ( ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+ )
+            // SpecFlowLangLexer_no.g:35:19: ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+
             {
-            	// SpecFlowLangLexer_nl.g:35:19: ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+
+            	// SpecFlowLangLexer_no.g:35:19: ( ( '\\u0000' .. '\\b' ) | ( '\\u000B' .. '\\f' ) | ( '\\u000E' .. '\\u001F' ) | ( '!' .. '\"' ) | ( '$' .. '?' ) | ( 'A' .. '\\uFFFF' ) )+
             	int cnt6 = 0;
             	do 
             	{
@@ -839,10 +839,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             	    switch (alt6) 
             		{
             			case 1 :
-            			    // SpecFlowLangLexer_nl.g:35:20: ( '\\u0000' .. '\\b' )
+            			    // SpecFlowLangLexer_no.g:35:20: ( '\\u0000' .. '\\b' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:35:20: ( '\\u0000' .. '\\b' )
-            			    	// SpecFlowLangLexer_nl.g:35:21: '\\u0000' .. '\\b'
+            			    	// SpecFlowLangLexer_no.g:35:20: ( '\\u0000' .. '\\b' )
+            			    	// SpecFlowLangLexer_no.g:35:21: '\\u0000' .. '\\b'
             			    	{
             			    		MatchRange('\u0000','\b'); if (state.failed) return ;
 
@@ -852,10 +852,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             			    }
             			    break;
             			case 2 :
-            			    // SpecFlowLangLexer_nl.g:36:7: ( '\\u000B' .. '\\f' )
+            			    // SpecFlowLangLexer_no.g:36:7: ( '\\u000B' .. '\\f' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:36:7: ( '\\u000B' .. '\\f' )
-            			    	// SpecFlowLangLexer_nl.g:36:8: '\\u000B' .. '\\f'
+            			    	// SpecFlowLangLexer_no.g:36:7: ( '\\u000B' .. '\\f' )
+            			    	// SpecFlowLangLexer_no.g:36:8: '\\u000B' .. '\\f'
             			    	{
             			    		MatchRange('\u000B','\f'); if (state.failed) return ;
 
@@ -865,10 +865,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             			    }
             			    break;
             			case 3 :
-            			    // SpecFlowLangLexer_nl.g:37:7: ( '\\u000E' .. '\\u001F' )
+            			    // SpecFlowLangLexer_no.g:37:7: ( '\\u000E' .. '\\u001F' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:37:7: ( '\\u000E' .. '\\u001F' )
-            			    	// SpecFlowLangLexer_nl.g:37:8: '\\u000E' .. '\\u001F'
+            			    	// SpecFlowLangLexer_no.g:37:7: ( '\\u000E' .. '\\u001F' )
+            			    	// SpecFlowLangLexer_no.g:37:8: '\\u000E' .. '\\u001F'
             			    	{
             			    		MatchRange('\u000E','\u001F'); if (state.failed) return ;
 
@@ -878,10 +878,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             			    }
             			    break;
             			case 4 :
-            			    // SpecFlowLangLexer_nl.g:38:7: ( '!' .. '\"' )
+            			    // SpecFlowLangLexer_no.g:38:7: ( '!' .. '\"' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:38:7: ( '!' .. '\"' )
-            			    	// SpecFlowLangLexer_nl.g:38:8: '!' .. '\"'
+            			    	// SpecFlowLangLexer_no.g:38:7: ( '!' .. '\"' )
+            			    	// SpecFlowLangLexer_no.g:38:8: '!' .. '\"'
             			    	{
             			    		MatchRange('!','\"'); if (state.failed) return ;
 
@@ -891,10 +891,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             			    }
             			    break;
             			case 5 :
-            			    // SpecFlowLangLexer_nl.g:39:7: ( '$' .. '?' )
+            			    // SpecFlowLangLexer_no.g:39:7: ( '$' .. '?' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:39:7: ( '$' .. '?' )
-            			    	// SpecFlowLangLexer_nl.g:39:8: '$' .. '?'
+            			    	// SpecFlowLangLexer_no.g:39:7: ( '$' .. '?' )
+            			    	// SpecFlowLangLexer_no.g:39:8: '$' .. '?'
             			    	{
             			    		MatchRange('$','?'); if (state.failed) return ;
 
@@ -904,10 +904,10 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             			    }
             			    break;
             			case 6 :
-            			    // SpecFlowLangLexer_nl.g:40:7: ( 'A' .. '\\uFFFF' )
+            			    // SpecFlowLangLexer_no.g:40:7: ( 'A' .. '\\uFFFF' )
             			    {
-            			    	// SpecFlowLangLexer_nl.g:40:7: ( 'A' .. '\\uFFFF' )
-            			    	// SpecFlowLangLexer_nl.g:40:8: 'A' .. '\\uFFFF'
+            			    	// SpecFlowLangLexer_no.g:40:7: ( 'A' .. '\\uFFFF' )
+            			    	// SpecFlowLangLexer_no.g:40:8: 'A' .. '\\uFFFF'
             			    	{
             			    		MatchRange('A','\uFFFF'); if (state.failed) return ;
 
@@ -944,125 +944,125 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
 
     override public void mTokens() // throws RecognitionException 
     {
-        // SpecFlowLangLexer_nl.g:1:39: ( T_FEATURE | T_BACKGROUND | T_SCENARIO | T_SCENARIO_OUTLINE | T_EXAMPLES | T_GIVEN | T_WHEN | T_THEN | T_AND | T_BUT | MLTEXT | CELLSEP | AT | COMMENT | WS | NEWLINE | WORDCHAR )
+        // SpecFlowLangLexer_no.g:1:39: ( T_FEATURE | T_BACKGROUND | T_SCENARIO | T_SCENARIO_OUTLINE | T_EXAMPLES | T_GIVEN | T_WHEN | T_THEN | T_AND | T_BUT | MLTEXT | CELLSEP | AT | COMMENT | WS | NEWLINE | WORDCHAR )
         int alt7 = 17;
         alt7 = dfa7.Predict(input);
         switch (alt7) 
         {
             case 1 :
-                // SpecFlowLangLexer_nl.g:1:41: T_FEATURE
+                // SpecFlowLangLexer_no.g:1:41: T_FEATURE
                 {
                 	mT_FEATURE(); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // SpecFlowLangLexer_nl.g:1:51: T_BACKGROUND
+                // SpecFlowLangLexer_no.g:1:51: T_BACKGROUND
                 {
                 	mT_BACKGROUND(); if (state.failed) return ;
 
                 }
                 break;
             case 3 :
-                // SpecFlowLangLexer_nl.g:1:64: T_SCENARIO
+                // SpecFlowLangLexer_no.g:1:64: T_SCENARIO
                 {
                 	mT_SCENARIO(); if (state.failed) return ;
 
                 }
                 break;
             case 4 :
-                // SpecFlowLangLexer_nl.g:1:75: T_SCENARIO_OUTLINE
+                // SpecFlowLangLexer_no.g:1:75: T_SCENARIO_OUTLINE
                 {
                 	mT_SCENARIO_OUTLINE(); if (state.failed) return ;
 
                 }
                 break;
             case 5 :
-                // SpecFlowLangLexer_nl.g:1:94: T_EXAMPLES
+                // SpecFlowLangLexer_no.g:1:94: T_EXAMPLES
                 {
                 	mT_EXAMPLES(); if (state.failed) return ;
 
                 }
                 break;
             case 6 :
-                // SpecFlowLangLexer_nl.g:1:105: T_GIVEN
+                // SpecFlowLangLexer_no.g:1:105: T_GIVEN
                 {
                 	mT_GIVEN(); if (state.failed) return ;
 
                 }
                 break;
             case 7 :
-                // SpecFlowLangLexer_nl.g:1:113: T_WHEN
+                // SpecFlowLangLexer_no.g:1:113: T_WHEN
                 {
                 	mT_WHEN(); if (state.failed) return ;
 
                 }
                 break;
             case 8 :
-                // SpecFlowLangLexer_nl.g:1:120: T_THEN
+                // SpecFlowLangLexer_no.g:1:120: T_THEN
                 {
                 	mT_THEN(); if (state.failed) return ;
 
                 }
                 break;
             case 9 :
-                // SpecFlowLangLexer_nl.g:1:127: T_AND
+                // SpecFlowLangLexer_no.g:1:127: T_AND
                 {
                 	mT_AND(); if (state.failed) return ;
 
                 }
                 break;
             case 10 :
-                // SpecFlowLangLexer_nl.g:1:133: T_BUT
+                // SpecFlowLangLexer_no.g:1:133: T_BUT
                 {
                 	mT_BUT(); if (state.failed) return ;
 
                 }
                 break;
             case 11 :
-                // SpecFlowLangLexer_nl.g:1:139: MLTEXT
+                // SpecFlowLangLexer_no.g:1:139: MLTEXT
                 {
                 	mMLTEXT(); if (state.failed) return ;
 
                 }
                 break;
             case 12 :
-                // SpecFlowLangLexer_nl.g:1:146: CELLSEP
+                // SpecFlowLangLexer_no.g:1:146: CELLSEP
                 {
                 	mCELLSEP(); if (state.failed) return ;
 
                 }
                 break;
             case 13 :
-                // SpecFlowLangLexer_nl.g:1:154: AT
+                // SpecFlowLangLexer_no.g:1:154: AT
                 {
                 	mAT(); if (state.failed) return ;
 
                 }
                 break;
             case 14 :
-                // SpecFlowLangLexer_nl.g:1:157: COMMENT
+                // SpecFlowLangLexer_no.g:1:157: COMMENT
                 {
                 	mCOMMENT(); if (state.failed) return ;
 
                 }
                 break;
             case 15 :
-                // SpecFlowLangLexer_nl.g:1:165: WS
+                // SpecFlowLangLexer_no.g:1:165: WS
                 {
                 	mWS(); if (state.failed) return ;
 
                 }
                 break;
             case 16 :
-                // SpecFlowLangLexer_nl.g:1:168: NEWLINE
+                // SpecFlowLangLexer_no.g:1:168: NEWLINE
                 {
                 	mNEWLINE(); if (state.failed) return ;
 
                 }
                 break;
             case 17 :
-                // SpecFlowLangLexer_nl.g:1:176: WORDCHAR
+                // SpecFlowLangLexer_no.g:1:176: WORDCHAR
                 {
                 	mWORDCHAR(); if (state.failed) return ;
 
@@ -1073,167 +1073,167 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
 
     }
 
-    // $ANTLR start "synpred1_SpecFlowLangLexer_nl"
-    public void synpred1_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:41: ( T_FEATURE )
-        // SpecFlowLangLexer_nl.g:1:41: T_FEATURE
+    // $ANTLR start "synpred1_SpecFlowLangLexer_no"
+    public void synpred1_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:41: ( T_FEATURE )
+        // SpecFlowLangLexer_no.g:1:41: T_FEATURE
         {
         	mT_FEATURE(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred1_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred1_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred2_SpecFlowLangLexer_nl"
-    public void synpred2_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:51: ( T_BACKGROUND )
-        // SpecFlowLangLexer_nl.g:1:51: T_BACKGROUND
+    // $ANTLR start "synpred2_SpecFlowLangLexer_no"
+    public void synpred2_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:51: ( T_BACKGROUND )
+        // SpecFlowLangLexer_no.g:1:51: T_BACKGROUND
         {
         	mT_BACKGROUND(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred2_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred2_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred3_SpecFlowLangLexer_nl"
-    public void synpred3_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:64: ( T_SCENARIO )
-        // SpecFlowLangLexer_nl.g:1:64: T_SCENARIO
+    // $ANTLR start "synpred3_SpecFlowLangLexer_no"
+    public void synpred3_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:64: ( T_SCENARIO )
+        // SpecFlowLangLexer_no.g:1:64: T_SCENARIO
         {
         	mT_SCENARIO(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred3_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred3_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred4_SpecFlowLangLexer_nl"
-    public void synpred4_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:75: ( T_SCENARIO_OUTLINE )
-        // SpecFlowLangLexer_nl.g:1:75: T_SCENARIO_OUTLINE
+    // $ANTLR start "synpred4_SpecFlowLangLexer_no"
+    public void synpred4_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:75: ( T_SCENARIO_OUTLINE )
+        // SpecFlowLangLexer_no.g:1:75: T_SCENARIO_OUTLINE
         {
         	mT_SCENARIO_OUTLINE(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred4_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred4_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred5_SpecFlowLangLexer_nl"
-    public void synpred5_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:94: ( T_EXAMPLES )
-        // SpecFlowLangLexer_nl.g:1:94: T_EXAMPLES
+    // $ANTLR start "synpred5_SpecFlowLangLexer_no"
+    public void synpred5_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:94: ( T_EXAMPLES )
+        // SpecFlowLangLexer_no.g:1:94: T_EXAMPLES
         {
         	mT_EXAMPLES(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred5_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred5_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred6_SpecFlowLangLexer_nl"
-    public void synpred6_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:105: ( T_GIVEN )
-        // SpecFlowLangLexer_nl.g:1:105: T_GIVEN
+    // $ANTLR start "synpred6_SpecFlowLangLexer_no"
+    public void synpred6_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:105: ( T_GIVEN )
+        // SpecFlowLangLexer_no.g:1:105: T_GIVEN
         {
         	mT_GIVEN(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred6_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred6_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred7_SpecFlowLangLexer_nl"
-    public void synpred7_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:113: ( T_WHEN )
-        // SpecFlowLangLexer_nl.g:1:113: T_WHEN
+    // $ANTLR start "synpred7_SpecFlowLangLexer_no"
+    public void synpred7_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:113: ( T_WHEN )
+        // SpecFlowLangLexer_no.g:1:113: T_WHEN
         {
         	mT_WHEN(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred7_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred7_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred8_SpecFlowLangLexer_nl"
-    public void synpred8_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:120: ( T_THEN )
-        // SpecFlowLangLexer_nl.g:1:120: T_THEN
+    // $ANTLR start "synpred8_SpecFlowLangLexer_no"
+    public void synpred8_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:120: ( T_THEN )
+        // SpecFlowLangLexer_no.g:1:120: T_THEN
         {
         	mT_THEN(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred8_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred8_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred9_SpecFlowLangLexer_nl"
-    public void synpred9_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:127: ( T_AND )
-        // SpecFlowLangLexer_nl.g:1:127: T_AND
+    // $ANTLR start "synpred9_SpecFlowLangLexer_no"
+    public void synpred9_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:127: ( T_AND )
+        // SpecFlowLangLexer_no.g:1:127: T_AND
         {
         	mT_AND(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred9_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred9_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred10_SpecFlowLangLexer_nl"
-    public void synpred10_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:133: ( T_BUT )
-        // SpecFlowLangLexer_nl.g:1:133: T_BUT
+    // $ANTLR start "synpred10_SpecFlowLangLexer_no"
+    public void synpred10_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:133: ( T_BUT )
+        // SpecFlowLangLexer_no.g:1:133: T_BUT
         {
         	mT_BUT(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred10_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred10_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred11_SpecFlowLangLexer_nl"
-    public void synpred11_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:139: ( MLTEXT )
-        // SpecFlowLangLexer_nl.g:1:139: MLTEXT
+    // $ANTLR start "synpred11_SpecFlowLangLexer_no"
+    public void synpred11_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:139: ( MLTEXT )
+        // SpecFlowLangLexer_no.g:1:139: MLTEXT
         {
         	mMLTEXT(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred11_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred11_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred12_SpecFlowLangLexer_nl"
-    public void synpred12_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:146: ( CELLSEP )
-        // SpecFlowLangLexer_nl.g:1:146: CELLSEP
+    // $ANTLR start "synpred12_SpecFlowLangLexer_no"
+    public void synpred12_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:146: ( CELLSEP )
+        // SpecFlowLangLexer_no.g:1:146: CELLSEP
         {
         	mCELLSEP(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred12_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred12_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred14_SpecFlowLangLexer_nl"
-    public void synpred14_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:157: ( COMMENT )
-        // SpecFlowLangLexer_nl.g:1:157: COMMENT
+    // $ANTLR start "synpred14_SpecFlowLangLexer_no"
+    public void synpred14_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:157: ( COMMENT )
+        // SpecFlowLangLexer_no.g:1:157: COMMENT
         {
         	mCOMMENT(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred14_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred14_SpecFlowLangLexer_no"
 
-    // $ANTLR start "synpred15_SpecFlowLangLexer_nl"
-    public void synpred15_SpecFlowLangLexer_nl_fragment() {
-        // SpecFlowLangLexer_nl.g:1:165: ( WS )
-        // SpecFlowLangLexer_nl.g:1:165: WS
+    // $ANTLR start "synpred15_SpecFlowLangLexer_no"
+    public void synpred15_SpecFlowLangLexer_no_fragment() {
+        // SpecFlowLangLexer_no.g:1:165: ( WS )
+        // SpecFlowLangLexer_no.g:1:165: WS
         {
         	mWS(); if (state.failed) return ;
 
         }
     }
-    // $ANTLR end "synpred15_SpecFlowLangLexer_nl"
+    // $ANTLR end "synpred15_SpecFlowLangLexer_no"
 
-   	public bool synpred9_SpecFlowLangLexer_nl() 
+   	public bool synpred3_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred9_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred3_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1245,13 +1245,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred12_SpecFlowLangLexer_nl() 
+   	public bool synpred2_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred12_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred2_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1263,13 +1263,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred10_SpecFlowLangLexer_nl() 
+   	public bool synpred11_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred10_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred11_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1281,13 +1281,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred7_SpecFlowLangLexer_nl() 
+   	public bool synpred9_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred7_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred9_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1299,13 +1299,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred15_SpecFlowLangLexer_nl() 
+   	public bool synpred15_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred15_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred15_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1317,13 +1317,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred8_SpecFlowLangLexer_nl() 
+   	public bool synpred8_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred8_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred8_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1335,13 +1335,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred1_SpecFlowLangLexer_nl() 
+   	public bool synpred1_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred1_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred1_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1353,13 +1353,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred6_SpecFlowLangLexer_nl() 
+   	public bool synpred7_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred6_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred7_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1371,13 +1371,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred14_SpecFlowLangLexer_nl() 
+   	public bool synpred6_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred14_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred6_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1389,13 +1389,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred4_SpecFlowLangLexer_nl() 
+   	public bool synpred10_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred4_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred10_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1407,13 +1407,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred2_SpecFlowLangLexer_nl() 
+   	public bool synpred14_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred2_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred14_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1425,13 +1425,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred11_SpecFlowLangLexer_nl() 
+   	public bool synpred12_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred11_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred12_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1443,13 +1443,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred3_SpecFlowLangLexer_nl() 
+   	public bool synpred5_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred3_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred5_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1461,13 +1461,13 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
    	    state.failed = false;
    	    return success;
    	}
-   	public bool synpred5_SpecFlowLangLexer_nl() 
+   	public bool synpred4_SpecFlowLangLexer_no() 
    	{
    	    state.backtracking++;
    	    int start = input.Mark();
    	    try 
    	    {
-   	        synpred5_SpecFlowLangLexer_nl_fragment(); // can never throw exception
+   	        synpred4_SpecFlowLangLexer_no_fragment(); // can never throw exception
    	    }
    	    catch (RecognitionException re) 
    	    {
@@ -1493,49 +1493,33 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
     const string DFA7_eofS =
         "\x1f\uffff";
     const string DFA7_minS =
-        "\x01\x00\x01\uffff\x01\x00\x02\uffff\x01\x00\x02\uffff\x01\x00"+
-        "\x02\uffff\x01\x00\x01\uffff\x01\x00\x02\uffff\x01\x00\x01\uffff"+
-        "\x01\x00\x01\uffff\x01\x00\x03\uffff\x01\x00\x01\uffff\x01\x00\x02"+
-        "\uffff\x01\x00\x01\uffff";
+        "\x02\x00\x03\uffff\x01\x00\x03\uffff\x01\x00\x01\uffff\x01\x00"+
+        "\x01\uffff\x01\x00\x01\uffff\x01\x00\x01\uffff\x01\x00\x02\uffff"+
+        "\x01\x00\x02\uffff\x01\x00\x02\uffff\x01\x00\x01\uffff\x01\x00\x02"+
+        "\uffff";
     const string DFA7_maxS =
-        "\x01\uffff\x01\uffff\x01\x00\x02\uffff\x01\x00\x02\uffff\x01\x00"+
-        "\x02\uffff\x01\x00\x01\uffff\x01\x00\x02\uffff\x01\x00\x01\uffff"+
-        "\x01\x00\x01\uffff\x01\x00\x03\uffff\x01\x00\x01\uffff\x01\x00\x02"+
-        "\uffff\x01\x00\x01\uffff";
+        "\x01\uffff\x01\x00\x03\uffff\x01\x00\x03\uffff\x01\x00\x01\uffff"+
+        "\x01\x00\x01\uffff\x01\x00\x01\uffff\x01\x00\x01\uffff\x01\x00\x02"+
+        "\uffff\x01\x00\x02\uffff\x01\x00\x02\uffff\x01\x00\x01\uffff\x01"+
+        "\x00\x02\uffff";
     const string DFA7_acceptS =
-        "\x01\uffff\x01\x0d\x01\uffff\x01\x0e\x01\x0f\x01\uffff\x01\x03"+
-        "\x01\x11\x01\uffff\x01\x09\x01\x0e\x01\uffff\x01\x08\x01\uffff\x01"+
-        "\x0c\x01\x11\x01\uffff\x01\x01\x01\uffff\x01\x0a\x01\uffff\x01\x02"+
-        "\x01\x04\x01\x07\x01\uffff\x01\x05\x01\uffff\x01\x0b\x01\x10\x01"+
-        "\uffff\x01\x06";
+        "\x02\uffff\x01\x0b\x01\x11\x01\x10\x01\uffff\x01\x03\x01\x08\x01"+
+        "\x0d\x01\uffff\x01\x02\x01\uffff\x01\x07\x01\uffff\x01\x0c\x01\uffff"+
+        "\x01\x09\x01\uffff\x01\x0a\x01\x11\x01\uffff\x01\x0e\x01\x0f\x01"+
+        "\uffff\x01\x04\x01\x0e\x01\uffff\x01\x06\x01\uffff\x01\x01\x01\x05";
     const string DFA7_specialS =
-        "\x01\x00\x01\uffff\x01\x01\x02\uffff\x01\x02\x02\uffff\x01\x03"+
-        "\x02\uffff\x01\x04\x01\uffff\x01\x05\x02\uffff\x01\x06\x01\uffff"+
-        "\x01\x07\x01\uffff\x01\x08\x03\uffff\x01\x09\x01\uffff\x01\x0a\x02"+
-        "\uffff\x01\x0b\x01\uffff}>";
+        "\x01\x00\x01\x01\x03\uffff\x01\x02\x03\uffff\x01\x03\x01\uffff"+
+        "\x01\x04\x01\uffff\x01\x05\x01\uffff\x01\x06\x01\uffff\x01\x07\x02"+
+        "\uffff\x01\x08\x02\uffff\x01\x09\x02\uffff\x01\x0a\x01\uffff\x01"+
+        "\x0b\x02\uffff}>";
     static readonly string[] DFA7_transitionS = {
-            "\x09\x0f\x01\x02\x01\x1c\x02\x0f\x01\x1c\x12\x0f\x01\x02\x01"+
-            "\x0f\x01\x1a\x01\x0a\x1c\x0f\x01\x01\x01\x14\x02\x0f\x01\x0b"+
-            "\x01\x08\x01\x10\x01\x1d\x05\x0f\x01\x12\x05\x0f\x01\x05\x02"+
-            "\x0f\x01\x18\x25\x0f\x01\x0d\uff83\x0f",
-            "",
+            "\x09\x13\x01\x14\x01\x04\x02\x13\x01\x04\x12\x13\x01\x14\x01"+
+            "\x13\x01\x01\x01\x19\x1c\x13\x01\x08\x01\x17\x01\x09\x02\x13"+
+            "\x01\x1c\x01\x13\x01\x1a\x05\x13\x01\x11\x01\x0b\x01\x0f\x03"+
+            "\x13\x01\x05\x28\x13\x01\x0d\uff83\x13",
             "\x01\uffff",
             "",
             "",
-            "\x01\uffff",
-            "",
-            "",
-            "\x01\uffff",
-            "",
-            "",
-            "\x01\uffff",
-            "",
-            "\x01\uffff",
-            "",
-            "",
-            "\x01\uffff",
-            "",
-            "\x01\uffff",
             "",
             "\x01\uffff",
             "",
@@ -1545,8 +1529,23 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
             "",
             "\x01\uffff",
             "",
+            "\x01\uffff",
             "",
             "\x01\uffff",
+            "",
+            "\x01\uffff",
+            "",
+            "",
+            "\x01\uffff",
+            "",
+            "",
+            "\x01\uffff",
+            "",
+            "",
+            "\x01\uffff",
+            "",
+            "\x01\uffff",
+            "",
             ""
     };
 
@@ -1592,51 +1591,51 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int LA7_0 = input.LA(1);
 
                    	s = -1;
-                   	if ( (LA7_0 == '@') ) { s = 1; }
+                   	if ( (LA7_0 == '\"') ) { s = 1; }
 
-                   	else if ( (LA7_0 == '\t' || LA7_0 == ' ') ) { s = 2; }
+                   	else if ( (LA7_0 == '\n' || LA7_0 == '\r') ) { s = 4; }
 
                    	else if ( (LA7_0 == 'S') ) { s = 5; }
 
-                   	else if ( (LA7_0 == 'E') ) { s = 8; }
+                   	else if ( (LA7_0 == '@') ) { s = 8; }
 
-                   	else if ( (LA7_0 == '#') ) { s = 10; }
+                   	else if ( (LA7_0 == 'B') ) { s = 9; }
 
-                   	else if ( (LA7_0 == 'D') ) { s = 11; }
+                   	else if ( (LA7_0 == 'N') ) { s = 11; }
 
                    	else if ( (LA7_0 == '|') ) { s = 13; }
 
-                   	else if ( ((LA7_0 >= '\u0000' && LA7_0 <= '\b') || (LA7_0 >= '\u000B' && LA7_0 <= '\f') || (LA7_0 >= '\u000E' && LA7_0 <= '\u001F') || LA7_0 == '!' || (LA7_0 >= '$' && LA7_0 <= '?') || (LA7_0 >= 'B' && LA7_0 <= 'C') || (LA7_0 >= 'H' && LA7_0 <= 'L') || (LA7_0 >= 'N' && LA7_0 <= 'R') || (LA7_0 >= 'T' && LA7_0 <= 'U') || (LA7_0 >= 'W' && LA7_0 <= '{') || (LA7_0 >= '}' && LA7_0 <= '\uFFFF')) ) { s = 15; }
+                   	else if ( (LA7_0 == 'O') ) { s = 15; }
 
-                   	else if ( (LA7_0 == 'F') ) { s = 16; }
+                   	else if ( (LA7_0 == 'M') ) { s = 17; }
 
-                   	else if ( (LA7_0 == 'M') ) { s = 18; }
+                   	else if ( ((LA7_0 >= '\u0000' && LA7_0 <= '\b') || (LA7_0 >= '\u000B' && LA7_0 <= '\f') || (LA7_0 >= '\u000E' && LA7_0 <= '\u001F') || LA7_0 == '!' || (LA7_0 >= '$' && LA7_0 <= '?') || (LA7_0 >= 'C' && LA7_0 <= 'D') || LA7_0 == 'F' || (LA7_0 >= 'H' && LA7_0 <= 'L') || (LA7_0 >= 'P' && LA7_0 <= 'R') || (LA7_0 >= 'T' && LA7_0 <= '{') || (LA7_0 >= '}' && LA7_0 <= '\uFFFF')) ) { s = 19; }
 
-                   	else if ( (LA7_0 == 'A') ) { s = 20; }
+                   	else if ( (LA7_0 == '\t' || LA7_0 == ' ') ) { s = 20; }
 
-                   	else if ( (LA7_0 == 'V') ) { s = 24; }
+                   	else if ( (LA7_0 == 'A') ) { s = 23; }
 
-                   	else if ( (LA7_0 == '\"') ) { s = 26; }
+                   	else if ( (LA7_0 == '#') ) { s = 25; }
 
-                   	else if ( (LA7_0 == '\n' || LA7_0 == '\r') ) { s = 28; }
+                   	else if ( (LA7_0 == 'G') ) { s = 26; }
 
-                   	else if ( (LA7_0 == 'G') ) { s = 29; }
+                   	else if ( (LA7_0 == 'E') ) { s = 28; }
 
                    	if ( s >= 0 ) return s;
                    	break;
                	case 1 : 
-                   	int LA7_2 = input.LA(1);
+                   	int LA7_1 = input.LA(1);
 
                    	 
-                   	int index7_2 = input.Index();
+                   	int index7_1 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred14_SpecFlowLangLexer_nl()) ) { s = 3; }
+                   	if ( (synpred11_SpecFlowLangLexer_no()) ) { s = 2; }
 
-                   	else if ( (synpred15_SpecFlowLangLexer_nl()) ) { s = 4; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
-                   	input.Seek(index7_2);
+                   	input.Seek(index7_1);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 2 : 
@@ -1646,27 +1645,29 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int index7_5 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred3_SpecFlowLangLexer_nl()) ) { s = 6; }
+                   	if ( (synpred3_SpecFlowLangLexer_no()) ) { s = 6; }
 
-                   	else if ( (true) ) { s = 7; }
+                   	else if ( (synpred8_SpecFlowLangLexer_no()) ) { s = 7; }
+
+                   	else if ( (true) ) { s = 3; }
 
                    	 
                    	input.Seek(index7_5);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 3 : 
-                   	int LA7_8 = input.LA(1);
+                   	int LA7_9 = input.LA(1);
 
                    	 
-                   	int index7_8 = input.Index();
+                   	int index7_9 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred9_SpecFlowLangLexer_nl()) ) { s = 9; }
+                   	if ( (synpred2_SpecFlowLangLexer_no()) ) { s = 10; }
 
-                   	else if ( (true) ) { s = 7; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
-                   	input.Seek(index7_8);
+                   	input.Seek(index7_9);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 4 : 
@@ -1676,9 +1677,9 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int index7_11 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred8_SpecFlowLangLexer_nl()) ) { s = 12; }
+                   	if ( (synpred7_SpecFlowLangLexer_no()) ) { s = 12; }
 
-                   	else if ( (true) ) { s = 7; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
                    	input.Seek(index7_11);
@@ -1691,42 +1692,42 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int index7_13 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred12_SpecFlowLangLexer_nl()) ) { s = 14; }
+                   	if ( (synpred12_SpecFlowLangLexer_no()) ) { s = 14; }
 
-                   	else if ( (true) ) { s = 7; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
                    	input.Seek(index7_13);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 6 : 
-                   	int LA7_16 = input.LA(1);
+                   	int LA7_15 = input.LA(1);
 
                    	 
-                   	int index7_16 = input.Index();
+                   	int index7_15 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred1_SpecFlowLangLexer_nl()) ) { s = 17; }
+                   	if ( (synpred9_SpecFlowLangLexer_no()) ) { s = 16; }
 
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
-                   	input.Seek(index7_16);
+                   	input.Seek(index7_15);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 7 : 
-                   	int LA7_18 = input.LA(1);
+                   	int LA7_17 = input.LA(1);
 
                    	 
-                   	int index7_18 = input.Index();
+                   	int index7_17 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred10_SpecFlowLangLexer_nl()) ) { s = 19; }
+                   	if ( (synpred10_SpecFlowLangLexer_no()) ) { s = 18; }
 
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (true) ) { s = 3; }
 
                    	 
-                   	input.Seek(index7_18);
+                   	input.Seek(index7_17);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 8 : 
@@ -1736,31 +1737,27 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int index7_20 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred2_SpecFlowLangLexer_nl()) ) { s = 21; }
+                   	if ( (synpred14_SpecFlowLangLexer_no()) ) { s = 21; }
 
-                   	else if ( (synpred4_SpecFlowLangLexer_nl()) ) { s = 22; }
-
-                   	else if ( (synpred7_SpecFlowLangLexer_nl()) ) { s = 23; }
-
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (synpred15_SpecFlowLangLexer_no()) ) { s = 22; }
 
                    	 
                    	input.Seek(index7_20);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 9 : 
-                   	int LA7_24 = input.LA(1);
+                   	int LA7_23 = input.LA(1);
 
                    	 
-                   	int index7_24 = input.Index();
+                   	int index7_23 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred5_SpecFlowLangLexer_nl()) ) { s = 25; }
+                   	if ( (synpred4_SpecFlowLangLexer_no()) ) { s = 24; }
 
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (true) ) { s = 19; }
 
                    	 
-                   	input.Seek(index7_24);
+                   	input.Seek(index7_23);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 10 : 
@@ -1770,27 +1767,29 @@ public partial class SpecFlowLangLexer_nl : SpecFlowLangLexer {
                    	int index7_26 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred11_SpecFlowLangLexer_nl()) ) { s = 27; }
+                   	if ( (synpred6_SpecFlowLangLexer_no()) ) { s = 27; }
 
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (true) ) { s = 19; }
 
                    	 
                    	input.Seek(index7_26);
                    	if ( s >= 0 ) return s;
                    	break;
                	case 11 : 
-                   	int LA7_29 = input.LA(1);
+                   	int LA7_28 = input.LA(1);
 
                    	 
-                   	int index7_29 = input.Index();
+                   	int index7_28 = input.Index();
                    	input.Rewind();
                    	s = -1;
-                   	if ( (synpred6_SpecFlowLangLexer_nl()) ) { s = 30; }
+                   	if ( (synpred1_SpecFlowLangLexer_no()) ) { s = 29; }
 
-                   	else if ( (true) ) { s = 15; }
+                   	else if ( (synpred5_SpecFlowLangLexer_no()) ) { s = 30; }
+
+                   	else if ( (true) ) { s = 19; }
 
                    	 
-                   	input.Seek(index7_29);
+                   	input.Seek(index7_28);
                    	if ( s >= 0 ) return s;
                    	break;
         }

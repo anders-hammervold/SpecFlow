@@ -1,4 +1,4 @@
-// $ANTLR 3.1.2 SpecFlowLangWalker.g 2009-11-25 14:12:02
+// $ANTLR 3.1.2 SpecFlowLangWalker.g 2010-02-04 21:53:45
 
 // The variable 'variable' is assigned but its value is never used.
 #pragma warning disable 168, 219

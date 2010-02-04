@@ -73,4 +73,16 @@
     <And>Och</And>
     <But>Men</But>
   </Language>
+  <Language code="no" defaultSpecificCulture="nb-NO">
+    <Feature>Egenskap</Feature>
+    <Background>Bakgrunn</Background>
+    <Scenario>Scenario</Scenario>
+    <ScenarioOutline>Abstrakt Scenario</ScenarioOutline>
+    <Examples>Eksempel</Examples>
+    <Given>Gitt</Given>
+    <When>Når</When>
+    <Then>Så</Then>
+    <And>Og</And>
+    <But>Men</But>
+  </Language>
 </SpecFlowLanguages>

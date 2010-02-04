@@ -1,4 +1,4 @@
-// $ANTLR 3.1.2 SpecFlowLangParser.g 2009-11-25 14:12:01
+// $ANTLR 3.1.2 SpecFlowLangParser.g 2010-02-04 21:53:44
 
 // The variable 'variable' is assigned but its value is never used.
 #pragma warning disable 168, 219
@@ -494,7 +494,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          tags, scenarioKind, descriptionLine, background, text
+            	// elements:          descriptionLine, scenarioKind, background, text, tags
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -1257,7 +1257,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          title, givens
+            	// elements:          givens, title
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -1547,7 +1547,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          title, tags, steps
+            	// elements:          title, steps, tags
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -1765,7 +1765,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          steps, title, examples, tags
+            	// elements:          title, tags, examples, steps
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -3050,7 +3050,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          nextStep, firstGiven
+            	// elements:          firstGiven, nextStep
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -3615,7 +3615,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          text, multilineText, table
+            	// elements:          text, table, multilineText
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -4783,7 +4783,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          textRest, WORDCHAR
+            	// elements:          WORDCHAR, textRest
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
@@ -4923,7 +4923,7 @@ public partial class SpecFlowLangParser : Parser
 
 
             	// AST REWRITE
-            	// elements:          textRest, wordchar
+            	// elements:          wordchar, textRest
             	// token labels:      
             	// rule labels:       retval
             	// token list labels: 
